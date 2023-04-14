@@ -13,10 +13,7 @@ Console.WriteLine(del1);
 
 
 
-/*int del1 = number / 100;
-Console.WriteLine(del1);
 
-Console.WriteLine();*/
 
 
 
