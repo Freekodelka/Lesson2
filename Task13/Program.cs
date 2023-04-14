@@ -1,47 +1,38 @@
 ﻿/*Напишите программу, которая принимает на вход цифру, 
 обозначающую день недели, и проверяет, 
-является ли этот день выходным.*/
+является ли этот день выходным.
+Я бы мог сделать код короче, например через интервалы от 1 до 5, 
+но мне показалось так забавнее!*/
 
 Console.WriteLine("Введите день недели");
-
 int N = int.Parse(Console.ReadLine());
 
 if (N == 1)
-{
-Console.WriteLine ("Monday - this is work day");
-}
+{ Console.WriteLine("Monday - this is work day"); }
 
 if (N == 2)
-{
-Console.WriteLine ("Tusday - this is work day");
-}
+{ Console.WriteLine("Tusday - this is work day"); }
 
 if (N == 3)
-{
-Console.WriteLine ("Wednesday - this is work day");
-}
+{ Console.WriteLine("Wednesday - this is work day"); }
 
 if (N == 4)
-{
-Console.WriteLine ("Thusday - this is work day");
-}
+{ Console.WriteLine("Thusday - this is work day"); }
 
 if (N == 5)
-{
-Console.WriteLine ("Friday - this is work day");
-}
+{ Console.WriteLine("Friday - this is work day"); }
 
 if (N == 6)
 {
-Console.WriteLine ("Saturday - this is weekend");
+    Console.WriteLine("Saturday - this is weekend");
 }
 
 if (N == 7)
 {
-Console.WriteLine ("Sunday - this is weekend");
+    Console.WriteLine("Sunday - this is weekend");
 }
 
-if (N > 7) 
+if (N > 7)
 {
-Console.WriteLine ("there is no such day of the week");
+    Console.WriteLine("there is no such day of the week");
 }
